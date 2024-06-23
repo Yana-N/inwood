@@ -1,0 +1,110 @@
+.subscription {
+  background-color: #E0F6F1;
+
+  &__content {
+    display: flex;
+    padding-right: max(var(--container-offset), calc((100% - var(--container-width)) / 2));
+
+    @include tablet {
+      padding-right: 0;
+      flex-direction: column;
+    }
+  }
+
+  &__left {
+    width: 50%;
+    background: var(--color-gray) url('../shared/img/subscription.jpg') no-repeat center / cover ;
+
+    @include tablet {
+      width: 100%;
+      min-height: 600px;
+    }
+
+    @include mobile {
+      min-height: 280px;
+    }
+  }
+
+  &__right {
+    $offset: calc(var(--container-offset) * 2);
+
+    padding: $offset 0 $offset 150px;
+    width: 50%;
+    flex-shrink: 0;
+
+    @include laptop {
+      padding: 109px var(--container-offset);
+    }
+
+    @include tablet {
+      width: 100%;
+    }
+
+    @include mobile {
+      padding: 48px var(--container-offset);
+      text-align: center;
+    }
+  }
+
+  &__title {
+    margin: 0;
+    max-width: 356px;
+    font-weight: 400;
+    font-size: var(--text-xl);
+    font-family: var(--second-family);
+
+    b {
+      font-weight: 600;
+    }
+
+    @include laptop {
+      max-width: 268px;
+    }
+
+    @include mobile {
+      max-width: none;
+      font-size: var(--text-ml);
+    }
+  }
+
+  &__text {
+    margin: 25px 0 40px;
+    font-family: var(--third-family);
+    font-size: var(--text-m);
+    line-height: 128%;
+  }
+
+  &__form {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+
+    label {
+      visibility: hidden;
+      font-size: 0;
+    }
+
+    input {
+      margin-bottom: 40px;
+      padding: 16px 20px;
+      width: 100%;
+      font-size: var(--text-m);
+      border: transparent;
+      background-color: transparent;
+      font-family: var(--third-family);
+      color: var(--primary-500);
+
+      &::placeholder {
+        color: var(--color-gray);
+      }
+
+      @include laptop {
+        border-bottom: 1px solid;
+      }
+
+      @include mobile {
+        text-align: center;
+      }
+    }
+  }
+}
