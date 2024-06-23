@@ -4,26 +4,91 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <title>Webpack Template</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&family=Open+Sans:wght@400;600;700&family=Playfair+Display:wght@400;700&display=swap" rel="stylesheet">
+
+    <title>INWOOD | Exclusive Deals of Furniture Collection</title>
   </head>
   <body>
-    <div style="padding: 2rem; max-width: 720px; margin: 0 auto">
-      <img src="/static/img/webpack.svg" style="width: 100%; max-width: 400px; height: auto" />
-      <div style="font-size: 1.75rem">It works!</div>
+    <main class="page">
+      <header class="header" id="header">
+        <nav class="navbar container" id="navbar">
+          <div class="navbar-inner">
+            <a href="/">
+              <img src="static/img/logo.png" alt="INWOOD Company">
+            </a>
+            <div class="burger" id="burger">
+              <span class="burger-line"></span>
+              <span class="burger-line"></span>
+              <span class="burger-line"></span>
+            </div>
+          </div>
+          <div class="navbar-block" id="menu">
+            <ul class="menu">
+              <li class="menu-item">
+                <a href="#home" class="menu-link is-active">Home</a>
+              </li>
+              <li class="menu-item">
+                <a href="#products" class="menu-link">Products</a>
+              </li>
+              <li class="menu-item">
+                <a href="#categories" class="menu-link">Categories</a>
+              </li>
+              <li class="menu-item">
+                <a href="#about" class="menu-link">About</a>
+              </li>
+              <li class="menu-item">
+                <a href="#contact-us" class="menu-link">Contact us</a>
+              </li>
+            </ul>
+          </div>
+        </nav>
+      </header>
 
-      <!-- pages list -->
-      <!-- based on `webpack-pages.js` -->
-      <ul style="padding: 1rem">
-        <li style="padding-bottom: 0.5rem">
-          <a href="/" style="color: blue">Home page (active)</a>
-        </li>
-        <li style="padding-bottom: 0.5rem">
-          <a href="/about.html" style="color: blue">About page</a>
-        </li>
-        <li style="padding-bottom: 0.5rem">
-          <a href="https://github.com/vedees/webpack-template/blob/webpack5/README.md" target="_blank" style="color: blue">Documentation</a>
-        </li>
-      </ul>
-    </div>
+      <section id="home" class="hero">
+        <div class="hero--container container">
+          <div class="hero--wrapper">
+            <h1 class="hero--title">Exclusive Deals of Furniture Collection</h1>
+            <p class="hero--text">Explore different categories. Find the best deals.</p>
+            <a href="#categories" class="btn btn--secondary btn--sm">Shop Now</a>
+          </div>
+        </div>
+      </section>
+
+      <section class="benefits section">
+        <div class="container">
+          <h2 class="benefits__title">Benefits for your expediency</h2>
+          <div class="benefits__items">
+
+            <div class="benefit">
+              <div class="benefit__icon">
+                <img src="static/img/benefits/payment.svg" alt="Benefits of INWOOD">
+              </div>
+              <p class="benefit__heading">Payment Method</p>
+              <p class="benefit__text">We offer flexible payment options, to make easier.</p>
+            </div>
+
+            <div class="benefit">
+              <div class="benefit__icon">
+                <img src="static/img/benefits/delivery.svg" alt="Benefits of INWOOD">
+              </div>
+              <p class="benefit__heading">Return policy</p>
+              <p class="benefit__text">You can return a product within 30 days.</p>
+            </div>
+
+            <div class="benefit">
+              <div class="benefit__icon">
+                <img src="static/img/benefits/support.svg" alt="Benefits of INWOOD">
+              </div>
+              <p class="benefit__heading">Customer Support</p>
+              <p class="benefit__text">Our customer support is 24/7.</p>
+            </div>
+
+          </div>
+        </div>
+      </section>
+    </main>
   </body>
 </html>

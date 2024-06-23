@@ -149,13 +149,7 @@ module.exports = {
     //   favicon: defines.src + '/shared/misc/favicon.ico',
     //   template: defines.public + '/index.html',
     //   filename: 'index.html' // output file
-    // }),
-    // new HtmlWebpackPlugin({
-    //   title: 'About page',
-    //   favicon: defines.src + '/shared/misc/favicon.ico',
-    //   template: defines.public + '/about.html',
-    //   filename: 'about.html' // output file
-    // }),
+    // })
 
     // or by config (from `webpack-pages.js`):
     ...pages.map(

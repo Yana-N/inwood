@@ -1,4 +1,11 @@
 @charset "UTF-8";
 
-// scss imports can be here (local files only):
-@import './body.scss';
+@import 'vars';
+@import 'mixins';
+@import 'settings';
+
+@import 'components/ui';
+
+@import 'components/hero';
+@import 'components/header';
+@import 'components/benefits';

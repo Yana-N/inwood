@@ -1,0 +1,92 @@
+.benefits {
+  background-color: var(--bg-light);
+
+  &__title {
+    margin: 0 0 104px;
+    text-align: center;
+    font-size: var(--text-xl);
+    font-family: var(--second-family);
+
+    @include laptop {
+      font-size: var(--text-lg);
+    }
+
+    @include mobile {
+      font-size: var(--text-xm);
+    }
+  }
+
+  &__items {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    text-align: center;
+    gap: 20px;
+
+    @include mobile {
+      flex-direction: column;
+      gap: 60px;
+    }
+  }
+}
+
+.benefit {
+  $self: &;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+
+  &__icon {
+    width: 108px;
+    height: 108px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 24px;
+  }
+
+  &__heading {
+    margin: 32px 0;
+    font-family: var(--second-family);
+    font-size: var(--text-l);
+    font-weight: 600;
+
+    @include laptop {
+      font-size: var(--text-m);
+    }
+  }
+
+  &__text {
+    margin: 0;
+    max-width: 308px;
+    width: 100%;
+    font-size: var(--text-m);
+
+    @include truncate-text;
+
+    @include laptop {
+      max-width: 218px;
+      font-size: var(--text-xs);
+    }
+  }
+
+  &:nth-child(1n) {
+    #{ $self }__icon {
+      background-color: #EEEBFF;
+    }
+  }
+
+  &:nth-child(2n) {
+    #{ $self }__icon {
+      background-color: #FFF4E7;
+    }
+  }
+
+  &:nth-child(3n) {
+    #{ $self }__icon {
+      background-color: #CAF3E5;
+    }
+  }
+}

@@ -1,0 +1,173 @@
+.header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 100;
+  width: 100%;
+  height: auto;
+}
+
+.navbar {
+  padding-top: 26px;
+  padding-bottom: 26px;
+  width: 100%;
+
+  &.is-active {
+    background-color: var(--primary-900);
+  }
+
+  // TODO: reverse logo and burger only on mobiles
+  &-inner {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 100%;
+    height: 100%;
+  }
+
+  &-block {
+    position: absolute;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    opacity: 0;
+    overflow: auto;
+    pointer-events: none;
+    background-color: var(--primary-900);
+    transition: opacity 0.4s ease;
+
+    &.is-active {
+      opacity: 1;
+      pointer-events: initial;
+    }
+  }
+}
+
+// TODO: change for desktop first and use mixins
+@media screen and (min-width: 1024px) {
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+
+    &-block {
+      position: initial;
+      height: initial;
+      opacity: 1;
+      overflow: auto;
+      pointer-events: visible;
+      background: none;
+      transition: none;
+    }
+  }
+}
+
+.menu {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+
+  &-link {
+    position: relative;
+    font-family: var(--second-family);
+    font-size: var(--text-s);
+    font-weight: 400;
+    line-height: inherit;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: var(--color-white);
+    transition: width var(--animate-transition);
+
+    &::before {
+      content: '';
+      top: 0;
+      left: 0;
+      width: 0;
+      height: 3px;
+      background-color: var(--color-white);
+
+      &:hover {
+        width: 100%;
+      }
+    }
+
+    @include laptop {
+      justify-content: center;
+      padding: 20px 0;
+    }
+  }
+}
+
+// TODO: change for desktop first and use mixins
+@media screen and (min-width: 1024px) {
+  .menu {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    gap: 50px;
+    height: 100%;
+
+    &-item {
+      display: flex;
+      cursor: pointer;
+    }
+  }
+}
+
+.burger {
+  position: relative;
+  display: block;
+  cursor: pointer;
+  user-select: none;
+  width: 1.5rem;
+  height: 1rem;
+  border: none;
+  outline: none;
+  visibility: visible;
+
+  &-line {
+    position: absolute;
+    display: block;
+    right: 0;
+    width: 100%;
+    height: 3px;
+    opacity: 1;
+    rotate: 0;
+    border-radius: 0.15rem;
+    background-color: var(--color-white);
+    transition: all var(--animate-transition);
+
+    &:nth-child(1) {
+      top: 0;
+    }
+    &:nth-child(2) {
+      top: 0.5rem;
+    }
+    &:nth-child(3) {
+      top: 1rem;
+    }
+  }
+
+  &.is-active > .burger-line {
+    &:nth-child(1) {
+      top: 0.5rem;
+      rotate: 135deg;
+    }
+    &:nth-child(2) {
+      opacity: 0;
+    }
+    &:nth-child(3) {
+      top: 0.5rem;
+      rotate: -135deg;
+    }
+  }
+}
+
+// Responsive media breakpoint
+@media screen and (min-width: 1024px) {
+  .burger {
+    display: none;
+    visibility: hidden;
+  }
+}

@@ -16,11 +16,6 @@ const pages = [
     // you can pass a hash of configuration options to html-webpack-plugin.
     // Allowed values are as follows:
     // read more: https://github.com/jantimon/html-webpack-plugin#options
-  },
-  {
-    title: 'About page',
-    template: 'about.html',
-    filename: 'about.html'
   }
 ]
 

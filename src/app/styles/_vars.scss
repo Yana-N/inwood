@@ -1,0 +1,57 @@
+:root {
+  --font-family: "Open Sans", sans-serif;
+  --second-family: "Playfair Display", sans-serif;
+  --third-family: "Roboto", sans-serif;
+
+  --content-width: 1620px;
+  --container-offset: 40px;
+  --container-width: calc(var(--content-width) + (var(--container-offset) * 2));
+
+  --color-white: #FFFFFF;
+
+  --btn-primary: #70908B;
+  --btn-secondary: #70908B;
+
+  --bg-light: #E0EFF6;
+
+  --primary-25: #F0FFFF;
+  --primary-50: #CDDADB;
+  --primary-100: #ACC2C3;
+  --primary-200: #83A3A4;
+  --primary-300: #5A8586;
+  --primary-400: #306768;
+  --primary-500: #07484A;
+  --primary-600: #063C3E;
+  --primary-700: #053031;
+  --primary-800: #042425; // TODO: check color overlay
+  --primary-900: #021819;
+
+  --text-xl: 64px;
+  --text-lg: 48px;
+  --text-l: 36px;
+  --text-ml: 36px;
+  --text-xm: 28px;
+  --text-m: 24px;
+  --text-s: 20px;
+  --text-xs: 18px;
+  --text-xxs: 14px;
+
+  --desktop: 1440px;
+  --laptop: 1024px;
+  --tablet: 768px;
+  --mobile: 576px;
+
+  --animate-transition: 0.3s ease;
+}
+
+@media (max-width: (768px)) {
+  :root {
+    --container-offset: 20px;
+  }
+}
+
+@media (max-width: (576px)) {
+  :root {
+    --container-offset: 16px;
+  }
+}
