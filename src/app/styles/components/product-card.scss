@@ -132,7 +132,7 @@
 
     &__title {
       margin: 32px 0 0;
-      font-weight: 600;
+      font-weight: 700;
       font-size: var(--text-m);
 
       @include truncate-text(1);
@@ -152,7 +152,7 @@
 
     &__price {
       margin: 0;
-      font-weight: 600;
+      font-weight: 700;
       font-size: var(--text-m);
     }
   }
