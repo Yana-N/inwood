@@ -29,7 +29,9 @@
     ]
   },
   "license": "MIT",
-  "dependencies": {},
+  "dependencies": {
+    "swiper": "^11.1.4"
+  },
   "devDependencies": {
     "@babel/core": "^7.23.5",
     "@babel/plugin-transform-modules-commonjs": "^7.23.3",

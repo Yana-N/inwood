@@ -3,10 +3,12 @@
 @import 'vars';
 @import 'mixins';
 @import 'settings';
+@import 'vendor';
 
 @import 'components/ui';
 
 @import 'components/hero';
 @import 'components/header';
+@import 'components/product-card';
 @import 'components/benefits';
 @import 'components/subscription';
