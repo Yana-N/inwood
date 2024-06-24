@@ -7,12 +7,13 @@ const regexp = /^(([^<>()[\]\\.,;:\s@"]+(\.[^<>()[\]\\.,;:\s@"]+)*)|.(".+"))@((\
 const validateEmail = (email) => String(email).toLowerCase().match(regexp);
 
 const checkInputEmail = (e) => {
-    const target = e.target.value
+    const target = e?.target?.value
 
     !target || !validateEmail(target)
         ? submitButton.setAttribute("disabled", "disabled")
         : submitButton.removeAttribute("disabled")
 }
 
+checkInputEmail()
 email.addEventListener("blur", checkInputEmail)
 email.addEventListener("input", checkInputEmail)
