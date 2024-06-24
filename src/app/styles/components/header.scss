@@ -5,6 +5,11 @@
   z-index: 100;
   width: 100%;
   height: auto;
+  transition: background-color var(--animate-transition);
+
+  &--on-scroll {
+    background-color: var(--primary-20);
+  }
 }
 
 .navbar {
@@ -13,7 +18,7 @@
   width: 100%;
 
   &.is-active {
-    background-color: var(--primary-900);
+    background-color: var(--primary-20);
   }
 
   // TODO: reverse logo and burger only on mobiles
@@ -26,6 +31,11 @@
     height: 100%;
   }
 
+  &-logo {
+    width: 144px;
+    height: auto;
+  }
+
   &-block {
     position: absolute;
     left: 0;
@@ -34,7 +44,7 @@
     opacity: 0;
     overflow: auto;
     pointer-events: none;
-    background-color: var(--primary-900);
+    background-color: var(--primary-20);
     transition: opacity 0.4s ease;
 
     &.is-active {
@@ -78,19 +88,15 @@
     align-items: center;
     justify-content: space-between;
     color: var(--color-white);
-    transition: width var(--animate-transition);
+    text-transform: capitalize;
 
-    &::before {
-      content: '';
-      top: 0;
-      left: 0;
-      width: 0;
-      height: 3px;
-      background-color: var(--color-white);
+    &.active {
+      font-weight: 700;
+      border-bottom: 3px solid;
+    }
 
-      &:hover {
-        width: 100%;
-      }
+    &:hover {
+      opacity: 0.8;
     }
 
     @include laptop {

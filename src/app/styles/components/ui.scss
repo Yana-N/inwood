@@ -7,7 +7,7 @@
   line-height: 100%;
   text-align: center;
   color: var(--color-white);
-  background-color: var(--btn-primary);
+  background-color: var(--primary-10);
   border: none;
   cursor: pointer;
   transition: background-color var(--animate-transition);
@@ -18,19 +18,11 @@
   }
 
   &:hover {
-    background-color: darken(#70908B, 20%);
+    background-color: var(--primary-10-light);
   }
 
   &:active {
-    background-color: lighten(#70908B, 20%);
-  }
-
-  &--secondary {
-    background-color: var(--btn-secondary);
-
-    &:hover {
-      background-color: darken(#70908B, 20%);
-    }
+    background-color: var(--primary-10-dark);
   }
 
   @include tablet {

@@ -7,6 +7,7 @@
   width: 40px;
   height: 40px;
   border-radius: 100%;
+  transition: background-color var(--animate-transition);
 
   @include laptop {
     display: none;
@@ -19,28 +20,27 @@
 
 .swiper-button-prev {
   left: 0;
-  background-color: #E0EFF6;
-  transition: background-color var(--animate-transition);
+  background-color: var(--secondary-20);
 
   &:hover {
-    background-color: darken(#E0EFF6, 10%);
+    background-color: var(--secondary-20-light);
   }
 
   &:active {
-    background-color: darken(#E0EFF6, 20%);
+    background-color: var(--secondary-20-dark);
   }
 }
 
 .swiper-button-next {
   right: 0;
   transform: rotate(180deg);
-  background-color: #F9D9DA;
+  background-color: var(--secondary-60);
 
   &:hover {
-    background-color: darken(#F9D9DA, 10%);
+    background-color: var(--secondary-60-light);
   }
 
   &:active {
-    background-color: darken(#F9D9DA, 20%);
+    background-color: var(--secondary-60-dark);
   }
 }

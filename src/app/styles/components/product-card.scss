@@ -80,7 +80,7 @@
     justify-content: center;
     padding: 84px 40px 60px;
     border-radius: 16px;
-    color: #70908B;
+    color: var(--primary-10);
     font-family: var(--third-family);
     max-width: 430px;
 
@@ -95,19 +95,19 @@
     }
 
     &--green {
-      background-color: #CAF3E5;
+      background-color: var(--secondary-10);
     }
 
     &--blue {
-      background-color: #E0EFF6;
+      background-color: var(--secondary-20);
     }
 
     &--violet {
-      background-color: #EEEBFF;
+      background-color: var(--secondary-30);
     }
 
     &--yellow {
-      background-color: #FFF4E7;
+      background-color: var(--secondary-40);
     }
 
     &__img {

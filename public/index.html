@@ -16,8 +16,9 @@
       <header class="header" id="header">
         <nav class="navbar container" id="navbar">
           <div class="navbar-inner">
-            <a href="/">
-              <img src="static/img/logo.png" alt="INWOOD Company">
+            <a href="/" class="navbar-logo">
+              <img src="static/img/logo/logo.svg" class="logo logo--dark" alt="INWOOD Logo">
+              <img src="static/img/logo/logo-light.svg" class="logo logo--light is-hidden" alt="INWOOD Logo">
             </a>
             <div class="burger" id="burger">
               <span class="burger-line"></span>
@@ -31,10 +32,10 @@
                 <a href="#home" class="menu-link is-active">Home</a>
               </li>
               <li class="menu-item">
-                <a href="#products" class="menu-link">Products</a>
+                <a href="#categories" class="menu-link">Categories</a>
               </li>
               <li class="menu-item">
-                <a href="#categories" class="menu-link">Categories</a>
+                <a href="#products" class="menu-link">Products</a>
               </li>
               <li class="menu-item">
                 <a href="#about" class="menu-link">About</a>
@@ -52,12 +53,16 @@
           <div class="hero--wrapper">
             <h1 class="hero--title">Exclusive Deals of Furniture Collection</h1>
             <p class="hero--text">Explore different categories. Find the best deals.</p>
-            <a href="#categories" class="btn btn--secondary btn--sm">Shop Now</a>
+            <a href="#categories" class="btn btn--sm">Shop Now</a>
           </div>
         </div>
       </section>
 
-      <section class="section product-cards">
+      <section id="categories" class="section">
+        <h2>Explore by Category</h2>
+      </section>
+
+      <section id="products" class="section product-cards">
         <h2 class="product-cards__title">Popular products</h2>
 
         <div id="swiper-products" class="product-cards__swiper swiper">
@@ -121,22 +126,22 @@
 
           <div class="swiper-navigation">
             <div class="swiper-button-prev">
-              <img src="static/img/navigation-arrow.svg">
+              <img src="static/img/icons/navigation-arrow.svg">
             </div>
             <div class="swiper-button-next">
-              <img src="static/img/navigation-arrow.svg">
+              <img src="static/img/icons/navigation-arrow.svg">
             </div>
           </div>
         </div>
 
         <div class="product-cards__cta">
           <a href="#" class="btn">Explore all items
-            <img src="static/img/btn-arrow.svg">
+            <img src="static/img/icons/btn-arrow.svg">
           </a>
         </div>
       </section>
 
-      <section class="benefits section">
+      <section id="about" class="benefits section">
         <div class="container">
           <h2 class="benefits__title">Benefits for your expediency</h2>
           <div class="benefits__items">
@@ -169,7 +174,77 @@
         </div>
       </section>
 
-      <section class="subscription">
+      <section class="section testimonials">
+        <div class="container">
+          <h2 class="testimonials__title">Testimonials</h2>
+          <p class="testimonials__subtitle">Over 15,000 happy customers.</p>
+
+          <div id="swiper-testimonials" class="swiper-testimonials swiper">
+            <div class="swiper-wrapper">
+
+              <div class="swiper-slide testimonial">
+                <div class="testimonial__img">
+                  <img src="static/img/testimonials/1.jpg" alt="Testimonial photo">
+                </div>
+                <div class="testimonial__wrapper">
+                  <p class="testimonial__text">
+                    “My experience with Mark is a complete
+                    sucess, from customer service, wide range of
+                    products, clean store, purchasing experience, the
+                    newsletter.Thank you.”
+                  </p>
+                  <p class="testimonial__name">Leona Paul</p>
+                  <p class="testimonial__job">CEO of Floatcom</p>
+                </div>
+              </div>
+
+              <div class="swiper-slide testimonial">
+                <div class="testimonial__img">
+                  <img src="static/img/testimonials/1.jpg" alt="Testimonial photo">
+                </div>
+                <div class="testimonial__wrapper">
+                  <p class="testimonial__text">
+                    “My experience with Mark is a complete
+                    sucess, from customer service, wide range of
+                    products, clean store, purchasing experience, the
+                    newsletter.Thank you.”
+                  </p>
+                  <p class="testimonial__name">Leona Paul</p>
+                  <p class="testimonial__job">CEO of Floatcom</p>
+                </div>
+              </div>
+
+              <div class="swiper-slide testimonial">
+                <div class="testimonial__img">
+                  <img src="static/img/testimonials/1.jpg" alt="Testimonial photo">
+                </div>
+                <div class="testimonial__wrapper">
+                  <p class="testimonial__text">
+                    “My experience with Mark is a complete
+                    sucess, from customer service, wide range of
+                    products, clean store, purchasing experience, the
+                    newsletter.Thank you.”
+                  </p>
+                  <p class="testimonial__name">Leona Paul</p>
+                  <p class="testimonial__job">CEO of Floatcom</p>
+                </div>
+              </div>
+
+            </div>
+
+            <div class="swiper-navigation">
+              <div class="swiper-button-prev">
+                <img src="static/img/icons/navigation-arrow.svg">
+              </div>
+              <div class="swiper-button-next">
+                <img src="static/img/icons/navigation-arrow.svg">
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="contact-us" class="subscription">
         <div class="subscription__content">
           <div class="subscription__left"></div>
           <div class="subscription__right">

@@ -1,5 +1,5 @@
 .benefits {
-  background-color: var(--bg-light);
+  background-color: var(--secondary-20);
 
   &__title {
     margin: 0 0 104px;
@@ -74,19 +74,19 @@
 
   &:nth-child(1n) {
     #{ $self }__icon {
-      background-color: #EEEBFF;
+      background-color: var(--secondary-30);
     }
   }
 
   &:nth-child(2n) {
     #{ $self }__icon {
-      background-color: #FFF4E7;
+      background-color: var(--secondary-40);
     }
   }
 
   &:nth-child(3n) {
     #{ $self }__icon {
-      background-color: #CAF3E5;
+      background-color: var(--secondary-10);
     }
   }
 }

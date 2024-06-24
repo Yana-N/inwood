@@ -1,0 +1,185 @@
+.testimonials {
+  padding-bottom: 254px;
+
+  @include laptop {
+    padding-bottom: 230px;
+  }
+
+  @include tablet {
+    padding-top: 80px;
+    padding-bottom: 204px;
+  }
+
+  @include mobile {
+    padding-bottom: 94px;
+  }
+
+  &__title {
+    margin: 0 0 35px;
+    font-family: var(--second-family);
+    font-size: var(--text-xl);
+    text-align: center;
+
+    @include laptop {
+      font-size: var(--text-lg);
+    }
+
+    @include mobile {
+      font-size: var(--text-ml);
+    }
+  }
+
+  &__subtitle {
+    margin: 0 0 30px;
+    font-family: var(--third-family);
+    font-size: var(--text-l);
+    text-align: center;
+
+    @include mobile {
+      font-size: var(--text-m);
+    }
+
+    @include mobile {
+      font-size: var(--text-xs);
+    }
+  }
+
+  .swiper {
+    margin-left: calc(var(--testimonials-slider-shift) * -1);
+
+    &-wrapper {
+      padding-left: var(--testimonials-slider-shift);
+    }
+
+    &-slide {
+      padding-top: var(--testimonials-slider-shift);
+
+      @include mobile {
+        padding-top: 42px;
+      }
+    }
+
+    &-navigation {
+      position: absolute;
+      width: 40px;
+      height: 100%;
+      transform: translateY(-50%);
+      top: 50%;
+      right: 0;
+      left: auto;
+      z-index: 10;
+
+      @include laptop {
+        display: none;
+      }
+    }
+
+    &-button-prev {
+      top: 39%;
+    }
+
+    &-button-next {
+      top: 51%;
+    }
+  }
+}
+
+.testimonial {
+  display: flex;
+  align-items: center;
+
+  @include mobile {
+    flex-direction: column;
+  }
+
+  &__img {
+    position: relative;
+    width: auto;
+    max-width: 420px;
+    flex-shrink: 0;
+
+    @include mobile {
+      margin-bottom: 40px;
+      margin-right: 40px;
+      max-width: 272px;
+    }
+
+    &::before {
+      content: '';
+      position: absolute;
+      top: -70px;
+      left: calc(var(--testimonials-slider-shift) * -1);
+      max-width: 160px;
+      width: 100%;
+      height: 120px;
+      background: url("../shared/img/icons/quote.svg") no-repeat center / contain;
+
+      @include mobile {
+        top: -42px;
+        max-width: 110px;
+        height: 80px;
+      }
+    }
+
+    img {
+      object-fit: cover;
+      border-radius: 20px;
+      height: 100%;
+      width: 100%;
+      aspect-ratio: 1;
+    }
+  }
+
+  &__wrapper {
+    max-width: 964px;
+    padding-left: 98px;
+    padding-right: var(--testimonials-slider-shift);
+
+    @include laptop {
+      padding-left: 50px;
+    }
+
+    @include tablet {
+      padding-left: 32px;
+    }
+
+    @include mobile {
+      padding-left: 0;
+    }
+  }
+
+  &__text {
+    margin: 0 0 65px;
+    padding-right: 50px;
+    font-size: var(--text-l);
+
+    @include laptop {
+      padding-right: 0;
+      font-size: var(--text-xs);
+    }
+
+    @include tablet {
+      margin-bottom: 32px;
+    }
+
+    @include tablet {
+      margin-bottom: 24px;
+    }
+  }
+
+  &__name,
+  &__job {
+    margin: 0;
+    font-family: var(--third-family);
+    font-size: var(--text-m);
+  }
+
+  &__name {
+    margin-bottom: 2px;
+    font-weight: 600;
+  }
+
+  &__job {
+    font-weight: 300;
+  }
+}

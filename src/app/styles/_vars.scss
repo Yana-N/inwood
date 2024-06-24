@@ -1,32 +1,38 @@
 :root {
-  --font-family: "Open Sans", sans-serif;
-  --second-family: "Playfair Display", sans-serif;
-  --third-family: "Roboto", sans-serif;
-
   --content-width: 1620px;
   --container-offset: 40px;
   --container-width: calc(var(--content-width) + (var(--container-offset) * 2));
 
+  // colors
   --color-white: #FFFFFF;
   --color-gray: #C4C4C4;
 
-  --btn-primary: #70908B;
-  --btn-secondary: #70908B;
+  --primary-10: #70908B;
+  --primary-20: #07484A;
 
-  --bg-light: #E0EFF6;
+  --secondary-10: #CAF3E5;
+  --primary-10-light: color-mix(in srgb, white 20%, var(--primary-10));
+  --primary-10-dark: color-mix(in srgb, black 20%, var(--primary-10));
 
-  --primary-25: #F0FFFF;
-  --primary-50: #CDDADB;
-  --primary-100: #ACC2C3;
-  --primary-200: #83A3A4;
-  --primary-300: #5A8586;
-  --primary-400: #306768;
-  --primary-500: #07484A;
-  --primary-600: #063C3E;
-  --primary-700: #053031;
-  --primary-800: #042425; // TODO: check color overlay
-  --primary-900: #021819;
+  --secondary-20: #E0EFF6;
+  --secondary-20-light: color-mix(in srgb, white 20%, var(--secondary-20));
+  --secondary-20-dark: color-mix(in srgb, black 20%, var(--secondary-20));
 
+  --secondary-30: #EEEBFF;
+  --secondary-40: #FFF4E7;
+  --secondary-50: #FDFBF8;
+
+  --secondary-60: #F9D9DA;
+  --secondary-60-light: color-mix(in srgb, white 20%, var(--secondary-60));
+  --secondary-60-dark: color-mix(in srgb, black 20%, var(--secondary-60));
+
+
+  // font families
+  --font-family: "Open Sans", sans-serif;
+  --second-family: "Playfair Display", sans-serif;
+  --third-family: "Roboto", sans-serif;
+
+  // font-sizes
   --text-xl: 64px;
   --text-lg: 48px;
   --text-l: 36px;
@@ -37,12 +43,15 @@
   --text-xs: 18px;
   --text-xxs: 14px;
 
+  // breakpoints
   --desktop: 1440px;
   --laptop: 1024px;
   --tablet: 768px;
   --mobile: 576px;
 
   --animate-transition: 0.3s ease;
+
+  --testimonials-slider-shift: calc(var(--container-offset) * 2);
 }
 
 @media (max-width: (768px)) {
