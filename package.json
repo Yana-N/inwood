@@ -30,6 +30,8 @@
   },
   "license": "MIT",
   "dependencies": {
+    "css-star-rating": "^1.3.1",
+    "read-smore": "2.4.0",
     "swiper": "^11.1.4"
   },
   "devDependencies": {

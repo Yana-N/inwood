@@ -1,0 +1,25 @@
+.read-smore {
+  $self: &;
+
+  &__link {
+    position: relative;
+
+    &::after {
+      content: '';
+      position: absolute;
+      width: 14px;
+      height: 7px;
+      background: url('../shared/img/icons/read-more-arrow.svg') no-repeat center / contain;
+      right: -18px;
+      left: auto;
+      top: 50%;
+      transform: translateY(-50%);
+    }
+
+    &[data-clicked=true] {
+      &::after {
+        transform: translateY(-50%) rotate(180deg);
+      }
+    }
+  }
+}

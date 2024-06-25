@@ -153,6 +153,8 @@
     padding-right: 50px;
     font-size: var(--text-l);
 
+    @include truncate-text(4);
+
     @include laptop {
       padding-right: 0;
       font-size: var(--text-xs);

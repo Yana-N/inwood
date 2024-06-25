@@ -5,6 +5,7 @@
 
   // colors
   --color-white: #FFFFFF;
+  --color-black: #000000;
   --color-gray: #C4C4C4;
 
   --primary-10: #70908B;
@@ -26,6 +27,7 @@
   --secondary-60-light: color-mix(in srgb, white 20%, var(--secondary-60));
   --secondary-60-dark: color-mix(in srgb, black 20%, var(--secondary-60));
 
+  --secondary-70: #E0F6F1;
 
   // font families
   --font-family: "Open Sans", sans-serif;
@@ -33,12 +35,14 @@
   --third-family: "Roboto", sans-serif;
 
   // font-sizes
+  --text-xxl: 72px;
   --text-xl: 64px;
   --text-lg: 48px;
   --text-l: 36px;
   --text-ml: 36px;
   --text-xm: 28px;
   --text-m: 24px;
+  --text-sm: 22px;
   --text-s: 20px;
   --text-xs: 18px;
   --text-xxs: 14px;

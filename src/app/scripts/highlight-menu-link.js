@@ -17,4 +17,5 @@ const highLightonScroll = () => {
     }
 }
 
+highLightonScroll();
 window.addEventListener('scroll', highLightonScroll);
