@@ -82,14 +82,8 @@
     border-radius: 16px;
     color: var(--primary-10);
     font-family: var(--third-family);
-    max-width: 430px;
-
-    @include laptop {
-      max-width: 416px;
-    }
 
     @include mobile {
-      max-width: 237px;
       padding: 46px 20px 20px;
     }
 
