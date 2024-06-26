@@ -8,19 +8,21 @@ btn.addEventListener('click', function () {
 })
 
 // render categories
-async function fetchData(url) {
-    let response = await fetch(url);
-    return await response.json();
-}
-
-const categories = await fetchData('categories.json');
-
 const categoryNav = document.querySelector('.categories__menu-list nav ul');
 
-const renderMenuItems = () => {
+const renderMenuItems = (categories) => {
     categories.forEach(({name}) => {
         categoryNav.insertAdjacentHTML('beforeend', `<li><a href="#">${name}</a></li>`)
     })
+}
+
+const setActiveClassForItem = (name) => {
+    categoryNav.querySelectorAll('a')
+        .forEach(({ textContent,classList  }) => {
+            textContent === name
+                ? classList.add('active')
+                : classList.remove('active')
+        })
 }
 
 const getCategoryBlockTemplate = (imageURL, link, name) => {
@@ -49,16 +51,7 @@ const renderCategoryBlocks = ({ name, elements }) => {
     setActiveClassForItem(name)
 }
 
-const setActiveClassForItem = (name) => {
-    categoryNav.querySelectorAll('a')
-        .forEach(({ textContent,classList  }) => {
-            textContent === name
-                ? classList.add('active')
-                : classList.remove('active')
-        })
-}
-
-const getSelectedCategory = () => {
+const getSelectedCategory = (categories) => {
     categoryNav.addEventListener('click', e => {
         e.preventDefault()
         const clickedCategory = e.target.closest('a')
@@ -72,21 +65,47 @@ const getSelectedCategory = () => {
     })
 }
 
-renderMenuItems()
-renderCategoryBlocks(categories[0])
-getSelectedCategory()
+const initCategoriesDisplay = (categories) => {
+    renderMenuItems(categories)
+    renderCategoryBlocks(categories[0])
+    getSelectedCategory(categories)
+}
 
 // category search
-const searchInput = document.querySelector('.categories__search input');
-const menuItems = categoryNav.querySelectorAll('li');
+const initSearch = (categories) => {
+    const searchInput = document.querySelector('.categories__search input');
+    const menuItems = categoryNav.querySelectorAll('li');
+    const message= categoryNav.nextElementSibling;
 
-searchInput.addEventListener('input', e => {
-    const value = e.target.value.toLowerCase();
+    searchInput.addEventListener('input', e => {
+        const value = e.target.value.toLowerCase();
 
-    [...menuItems]
-        .filter(item => {
-            item.classList.remove('is-hidden')
-            return item.textContent.toLocaleLowerCase().indexOf(value) === -1
-        })
-        .forEach(item => item.classList.add('is-hidden'))
-})
+        const selectedItems = [...menuItems]
+            .filter(item => {
+                item.classList.remove('is-hidden')
+                return item.textContent.toLocaleLowerCase().indexOf(value) === -1
+            })
+            .map(item => {
+                item.classList.add('is-hidden')
+                return item
+            })
+
+        selectedItems.length === categories.length
+            ? message.classList.remove('d-none')
+            : message.classList.add('d-none')
+    })
+}
+
+const initCategories = (categories) => {
+    initCategoriesDisplay(categories)
+    initSearch(categories)
+}
+
+async function initApp() {
+    const response = await fetch('categories.json');
+    const categories = await response.json();
+
+    initCategories(categories);
+}
+
+initApp().catch(console.log)

@@ -17,12 +17,6 @@ module.exports = merge(commonConfig, {
   output: {
     path: defines.dist
   },
-  plugins: [
-    // compress example:
-    // new CompressionPlugin({
-    //   exclude: /\/static/,
-    // }),
-  ],
   module: {
     rules: []
   },
@@ -38,8 +32,6 @@ module.exports = merge(commonConfig, {
       new TerserPlugin(),
       new CssMinimizerPlugin({
         minimizerOptions: {
-          // no ie please!
-          // targets: { ie: 11 },
           preset: [
             'default',
             {

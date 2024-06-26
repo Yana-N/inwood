@@ -1,7 +1,3 @@
-/* Base config:
-  ========================================================================== */
-
-//
 const defines = require('./webpack-defines')
 const pages = require('./webpack-pages')
 
@@ -13,20 +9,14 @@ const MiniCssExtractPlugin = require('mini-css-extract-plugin')
 const HtmlWebpackPlugin = require('html-webpack-plugin')
 
 // helpers:
-// I want one rule for development and production, so I use `isDev` to check the process
 const isDev = process.env.NODE_ENV !== 'production'
 
 module.exports = {
   entry: {
     app: `${defines.src}/index.ts`
-    // another app example:
-    // auth: `${defines.src}/_auth/index.ts`
   },
   output: {
     path: defines.dist,
-    // if you need hash:
-    // filename: `${defines.assets}js/[name].[contenthash].js`
-    // if you don't need hash:
     filename: `${defines.assets}js/[name].js`
   },
 
@@ -69,11 +59,6 @@ module.exports = {
         exclude: /node_modules/,
         use: {
           loader: 'babel-loader',
-
-          options: {
-            // react-refresh example:
-            // plugins: [isDev && require.resolve('react-refresh/babel')].filter(Boolean)
-          }
         }
       },
 
@@ -89,12 +74,6 @@ module.exports = {
               postcssOptions: {
                 plugins: [
                   [
-                    // add more postcss plugins here
-                    // ...
-
-                    // https://www.npmjs.com/package/postcss-preset-env
-                    // it's including autoprefixer by default (config is in `package.json`)
-                    // pass `autoprefixer: false` to disable autoprefixer
                     'postcss-preset-env'
                   ]
                 ],
@@ -119,7 +98,6 @@ module.exports = {
         test: /\.svg$/i,
         issuer: /\.[jt]sx?$/,
         use: [
-          // https://react-svgr.com/docs/webpack/
           '@svgr/webpack'
         ]
       },
@@ -141,17 +119,6 @@ module.exports = {
     ]
   },
   plugins: [
-    // html pages:
-
-    // can be manually (one by one):
-    // new HtmlWebpackPlugin({
-    //   title: 'Home page',
-    //   favicon: defines.src + '/shared/misc/favicon.ico',
-    //   template: defines.public + '/index.html',
-    //   filename: 'index.html' // output file
-    // })
-
-    // or by config (from `webpack-pages.js`):
     ...pages.map(
       page =>
         new HtmlWebpackPlugin({
@@ -163,12 +130,7 @@ module.exports = {
         })
     ),
 
-    // extract css from js / ts files (it's a basic setup to keep css in `css` folder)
-    // https://webpack.js.org/plugins/mini-css-extract-plugin/
     new MiniCssExtractPlugin({
-      // if you need hash:
-      // filename: `${defines.assets}css/[name].[contenthash].css`,
-      // if you don't need hash:
       filename: `${defines.assets}css/[name].css`,
       chunkFilename: '[id].css'
     }),
@@ -176,21 +138,10 @@ module.exports = {
     // copy files from target to destination folder
     new CopyWebpackPlugin({
       patterns: [
-        // `shared/img` to `dist/static/img`
         {
           from: `${defines.src}/shared/img`,
           to: `${defines.dist}/${defines.static}/img`
         },
-
-        // others:
-        // `shared/fonts` to `dist/static/fonts`
-        // {
-        //   from: `${defines.src}/shared/fonts`,
-        //   to: `${defines.dist}/${defines.static}/fonts`
-        // },
-
-        // misc
-        // `shared/misc` to `dist/`
         {
           from: `${defines.src}/shared/misc`,
           to: `${defines.dist}`
@@ -199,11 +150,11 @@ module.exports = {
     })
   ],
 
+  experiments: {
+    topLevelAwait: true,
+  },
+
   resolve: {
-    alias: {
-      // no need since I use `tsconfig` & `jsconfig`
-      // '@': defines.src
-    },
     extensions: ['.ts', '.tsx', '.js', '.jsx']
   }
 }
