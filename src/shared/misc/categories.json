@@ -1,62 +1,123 @@
 [
   {
-    "name": "Bedroom",
+    "name": "Bathroom",
     "elements": [
-      {
-        "imageURL": "https://media.istockphoto.com/id/1222623844/photo/master-bedroom-in-new-luxury-home-with-chandelier-and-large-bank-of-windows-with-view-of-trees.jpg?s=612x612&w=0&k=20&c=BuIObAMmOM6AZ2d2L9bCYh9tfxCCsdzeqWo6tizso9I=",
-        "link": "#"
-      },
-      {
-        "imageURL": "https://media.istockphoto.com/id/1467126728/photo/modern-scandinavian-and-japandi-style-bedroom-interior-design-with-bed-white-color-wooden.jpg?s=612x612&w=0&k=20&c=oa94MeFcLIs6l4hJQGztLbWe3BGOH9LtvLebnUXgUus=",
-        "link": "#"
-      }
+      { "link": "#", "imageURL": "https://picsum.photos/650/400" },
+      { "link": "#", "imageURL": "https://picsum.photos/650/400?random=1" },
+      { "link": "#", "imageURL": "https://picsum.photos/650/400?random=2" },
+      { "link": "#", "imageURL": "https://picsum.photos/650/400?random=3" },
+      { "link": "#", "imageURL": "https://picsum.photos/650/400?random=4" },
+      { "link": "#", "imageURL": "https://picsum.photos/650/400?random=5" }
+    ]
+  },
+  {
+    "name": "Living Room",
+    "elements": [
+      { "link": "#", "imageURL": "https://picsum.photos/650/400?random=6" },
+      { "link": "#", "imageURL": "https://picsum.photos/650/400?random=7" },
+      { "link": "#", "imageURL": "https://picsum.photos/650/400?random=8" },
+      { "link": "#", "imageURL": "https://picsum.photos/650/400?random=9" },
+      { "link": "#", "imageURL": "https://picsum.photos/650/400?random=10" },
+      { "link": "#", "imageURL": "https://picsum.photos/650/400?random=11" }
     ]
   },
   {
     "name": "Kitchen",
     "elements": [
-      {
-        "imageURL": "https://st.hzcdn.com/simgs/pictures/kitchens/kitchens-michael-alan-kaskel-img~0d511d8e0e77ab3a_14-6521-1-7aacee2.jpg",
-        "link": "#"
-      },
-      {
-        "imageURL": "https://st.hzcdn.com/simgs/e721fc8a0529851d_4-9605/home-design.jpg",
-        "link": "#"
-      },
-      {
-        "imageURL": "https://www.amelialawrencestyle.com/wp-content/uploads/2023/05/ClassicKitchen-14.jpg",
-        "link": "https://st.hzcdn.com/simgs/e721fc8a0529851d_4-9605/home-design.jpg"
-      }
+      { "link": "#", "imageURL": "https://picsum.photos/650/400?random=12" },
+      { "link": "#", "imageURL": "https://picsum.photos/650/400?random=13" },
+      { "link": "#", "imageURL": "https://picsum.photos/650/400?random=14" },
+      { "link": "#", "imageURL": "https://picsum.photos/650/400?random=15" },
+      { "link": "#", "imageURL": "https://picsum.photos/650/400?random=16" },
+      { "link": "#", "imageURL": "https://picsum.photos/650/400?random=17" }
     ]
   },
   {
-    "name": "Bedroom2",
+    "name": "Bedroom",
     "elements": [
-      {
-        "imageURL": "https://media.istockphoto.com/id/1222623844/photo/master-bedroom-in-new-luxury-home-with-chandelier-and-large-bank-of-windows-with-view-of-trees.jpg?s=612x612&w=0&k=20&c=BuIObAMmOM6AZ2d2L9bCYh9tfxCCsdzeqWo6tizso9I=",
-        "link": "#"
-      },
-      {
-        "imageURL": "https://media.istockphoto.com/id/1467126728/photo/modern-scandinavian-and-japandi-style-bedroom-interior-design-with-bed-white-color-wooden.jpg?s=612x612&w=0&k=20&c=oa94MeFcLIs6l4hJQGztLbWe3BGOH9LtvLebnUXgUus=",
-        "link": "#"
-      }
+      { "link": "#", "imageURL": "https://picsum.photos/650/400?random=18" },
+      { "link": "#", "imageURL": "https://picsum.photos/650/400?random=19" },
+      { "link": "#", "imageURL": "https://picsum.photos/650/400?random=20" },
+      { "link": "#", "imageURL": "https://picsum.photos/650/400?random=21" },
+      { "link": "#", "imageURL": "https://picsum.photos/650/400?random=22" },
+      { "link": "#", "imageURL": "https://picsum.photos/650/400?random=23" }
     ]
   },
   {
-    "name": "Kitchen2",
+    "name": "Children's Room",
     "elements": [
-      {
-        "imageURL": "https://st.hzcdn.com/simgs/pictures/kitchens/kitchens-michael-alan-kaskel-img~0d511d8e0e77ab3a_14-6521-1-7aacee2.jpg",
-        "link": "#"
-      },
-      {
-        "imageURL": "https://st.hzcdn.com/simgs/e721fc8a0529851d_4-9605/home-design.jpg",
-        "link": "#"
-      },
-      {
-        "imageURL": "https://www.amelialawrencestyle.com/wp-content/uploads/2023/05/ClassicKitchen-14.jpg",
-        "link": "https://st.hzcdn.com/simgs/e721fc8a0529851d_4-9605/home-design.jpg"
-      }
+      { "link": "#", "imageURL": "https://picsum.photos/650/400?random=24" },
+      { "link": "#", "imageURL": "https://picsum.photos/650/400?random=25" },
+      { "link": "#", "imageURL": "https://picsum.photos/650/400?random=26" },
+      { "link": "#", "imageURL": "https://picsum.photos/650/400?random=27" },
+      { "link": "#", "imageURL": "https://picsum.photos/650/400?random=28" },
+      { "link": "#", "imageURL": "https://picsum.photos/650/400?random=29" }
+    ]
+  },
+  {
+    "name": "Dining Room",
+    "elements": [
+      { "link": "#", "imageURL": "https://picsum.photos/650/400?random=30" },
+      { "link": "#", "imageURL": "https://picsum.photos/650/400?random=31" },
+      { "link": "#", "imageURL": "https://picsum.photos/650/400?random=32" },
+      { "link": "#", "imageURL": "https://picsum.photos/650/400?random=33" },
+      { "link": "#", "imageURL": "https://picsum.photos/650/400?random=34" },
+      { "link": "#", "imageURL": "https://picsum.photos/650/400?random=35" }
+    ]
+  },
+  {
+    "name": "Study",
+    "elements": [
+      { "link": "#", "imageURL": "https://picsum.photos/650/400?random=36" },
+      { "link": "#", "imageURL": "https://picsum.photos/650/400?random=37" },
+      { "link": "#", "imageURL": "https://picsum.photos/650/400?random=38" },
+      { "link": "#", "imageURL": "https://picsum.photos/650/400?random=39" },
+      { "link": "#", "imageURL": "https://picsum.photos/650/400?random=40" },
+      { "link": "#", "imageURL": "https://picsum.photos/650/400?random=41" }
+    ]
+  },
+  {
+    "name": "Balcony",
+    "elements": [
+      { "link": "#", "imageURL": "https://picsum.photos/650/400?random=42" },
+      { "link": "#", "imageURL": "https://picsum.photos/650/400?random=43" },
+      { "link": "#", "imageURL": "https://picsum.photos/650/400?random=44" },
+      { "link": "#", "imageURL": "https://picsum.photos/650/400?random=45" },
+      { "link": "#", "imageURL": "https://picsum.photos/650/400?random=46" },
+      { "link": "#", "imageURL": "https://picsum.photos/650/400?random=47" }
+    ]
+  },
+  {
+    "name": "Hallway",
+    "elements": [
+      { "link": "#", "imageURL": "https://picsum.photos/650/400?random=48" },
+      { "link": "#", "imageURL": "https://picsum.photos/650/400?random=49" },
+      { "link": "#", "imageURL": "https://picsum.photos/650/400?random=50" },
+      { "link": "#", "imageURL": "https://picsum.photos/650/400?random=51" },
+      { "link": "#", "imageURL": "https://picsum.photos/650/400?random=52" },
+      { "link": "#", "imageURL": "https://picsum.photos/650/400?random=53" }
+    ]
+  },
+  {
+    "name": "Terrace",
+    "elements": [
+      { "link": "#", "imageURL": "https://picsum.photos/650/400?random=54" },
+      { "link": "#", "imageURL": "https://picsum.photos/650/400?random=55" },
+      { "link": "#", "imageURL": "https://picsum.photos/650/400?random=56" },
+      { "link": "#", "imageURL": "https://picsum.photos/650/400?random=57" },
+      { "link": "#", "imageURL": "https://picsum.photos/650/400?random=58" },
+      { "link": "#", "imageURL": "https://picsum.photos/650/400?random=59" }
+    ]
+  },
+  {
+    "name": "Office",
+    "elements": [
+      { "link": "#", "imageURL": "https://picsum.photos/650/400?random=60" },
+      { "link": "#", "imageURL": "https://picsum.photos/650/400?random=61" },
+      { "link": "#", "imageURL": "https://picsum.photos/650/400?random=62" },
+      { "link": "#", "imageURL": "https://picsum.photos/650/400?random=63" },
+      { "link": "#", "imageURL": "https://picsum.photos/650/400?random=64" },
+      { "link": "#", "imageURL": "https://picsum.photos/650/400?random=65" }
     ]
   }
 ]
