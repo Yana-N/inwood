@@ -93,6 +93,10 @@
     &.active {
       font-weight: 700;
       border-bottom: 3px solid;
+
+      @include mobile {
+        border-bottom: none;
+      }
     }
 
     &:hover {

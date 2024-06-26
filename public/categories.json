@@ -1,0 +1,62 @@
+[
+  {
+    "name": "Bedroom",
+    "elements": [
+      {
+        "imageURL": "https://media.istockphoto.com/id/1222623844/photo/master-bedroom-in-new-luxury-home-with-chandelier-and-large-bank-of-windows-with-view-of-trees.jpg?s=612x612&w=0&k=20&c=BuIObAMmOM6AZ2d2L9bCYh9tfxCCsdzeqWo6tizso9I=",
+        "link": "#"
+      },
+      {
+        "imageURL": "https://media.istockphoto.com/id/1467126728/photo/modern-scandinavian-and-japandi-style-bedroom-interior-design-with-bed-white-color-wooden.jpg?s=612x612&w=0&k=20&c=oa94MeFcLIs6l4hJQGztLbWe3BGOH9LtvLebnUXgUus=",
+        "link": "#"
+      }
+    ]
+  },
+  {
+    "name": "Kitchen",
+    "elements": [
+      {
+        "imageURL": "https://st.hzcdn.com/simgs/pictures/kitchens/kitchens-michael-alan-kaskel-img~0d511d8e0e77ab3a_14-6521-1-7aacee2.jpg",
+        "link": "#"
+      },
+      {
+        "imageURL": "https://st.hzcdn.com/simgs/e721fc8a0529851d_4-9605/home-design.jpg",
+        "link": "#"
+      },
+      {
+        "imageURL": "https://www.amelialawrencestyle.com/wp-content/uploads/2023/05/ClassicKitchen-14.jpg",
+        "link": "https://st.hzcdn.com/simgs/e721fc8a0529851d_4-9605/home-design.jpg"
+      }
+    ]
+  },
+  {
+    "name": "Bedroom2",
+    "elements": [
+      {
+        "imageURL": "https://media.istockphoto.com/id/1222623844/photo/master-bedroom-in-new-luxury-home-with-chandelier-and-large-bank-of-windows-with-view-of-trees.jpg?s=612x612&w=0&k=20&c=BuIObAMmOM6AZ2d2L9bCYh9tfxCCsdzeqWo6tizso9I=",
+        "link": "#"
+      },
+      {
+        "imageURL": "https://media.istockphoto.com/id/1467126728/photo/modern-scandinavian-and-japandi-style-bedroom-interior-design-with-bed-white-color-wooden.jpg?s=612x612&w=0&k=20&c=oa94MeFcLIs6l4hJQGztLbWe3BGOH9LtvLebnUXgUus=",
+        "link": "#"
+      }
+    ]
+  },
+  {
+    "name": "Kitchen2",
+    "elements": [
+      {
+        "imageURL": "https://st.hzcdn.com/simgs/pictures/kitchens/kitchens-michael-alan-kaskel-img~0d511d8e0e77ab3a_14-6521-1-7aacee2.jpg",
+        "link": "#"
+      },
+      {
+        "imageURL": "https://st.hzcdn.com/simgs/e721fc8a0529851d_4-9605/home-design.jpg",
+        "link": "#"
+      },
+      {
+        "imageURL": "https://www.amelialawrencestyle.com/wp-content/uploads/2023/05/ClassicKitchen-14.jpg",
+        "link": "https://st.hzcdn.com/simgs/e721fc8a0529851d_4-9605/home-design.jpg"
+      }
+    ]
+  }
+]

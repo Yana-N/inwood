@@ -7,6 +7,8 @@
   --color-white: #FFFFFF;
   --color-black: #000000;
   --color-gray: #C4C4C4;
+  --color-light-gray: #F0F0F0;
+  --color-dark-gray: #6E757E;
 
   --primary-10: #70908B;
   --primary-20: #07484A;
@@ -16,7 +18,7 @@
   --primary-10-dark: color-mix(in srgb, black 20%, var(--primary-10));
 
   --secondary-20: #E0EFF6;
-  --secondary-20-light: color-mix(in srgb, white 20%, var(--secondary-20));
+  --secondary-20-light: color-mix(in srgb, white 80%, var(--secondary-20));
   --secondary-20-dark: color-mix(in srgb, black 20%, var(--secondary-20));
 
   --secondary-30: #EEEBFF;
