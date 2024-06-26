@@ -2,122 +2,320 @@
   {
     "name": "Bathroom",
     "elements": [
-      { "link": "#", "imageURL": "https://picsum.photos/650/400" },
-      { "link": "#", "imageURL": "https://picsum.photos/650/400?random=1" },
-      { "link": "#", "imageURL": "https://picsum.photos/650/400?random=2" },
-      { "link": "#", "imageURL": "https://picsum.photos/650/400?random=3" },
-      { "link": "#", "imageURL": "https://picsum.photos/650/400?random=4" },
-      { "link": "#", "imageURL": "https://picsum.photos/650/400?random=5" }
+      {
+        "link": "#",
+        "imageURL": "https://images.pexels.com/photos/1457848/pexels-photo-1457848.jpeg"
+      },
+      {
+        "link": "#",
+        "imageURL": "https://images.pexels.com/photos/1457848/pexels-photo-1457848.jpeg"
+      },
+      {
+        "link": "#",
+        "imageURL": "https://images.pexels.com/photos/1029599/pexels-photo-1029599.jpeg"
+      },
+      {
+        "link": "#",
+        "imageURL": "https://images.pexels.com/photos/1571463/pexels-photo-1571463.jpeg"
+      },
+      {
+        "link": "#",
+        "imageURL": "https://images.pexels.com/photos/1571463/pexels-photo-1571463.jpeg"
+      },
+      {
+        "link": "#",
+        "imageURL": "https://images.pexels.com/photos/1892956/pexels-photo-1892956.jpeg"
+      }
     ]
   },
   {
     "name": "Living Room",
     "elements": [
-      { "link": "#", "imageURL": "https://picsum.photos/650/400?random=6" },
-      { "link": "#", "imageURL": "https://picsum.photos/650/400?random=7" },
-      { "link": "#", "imageURL": "https://picsum.photos/650/400?random=8" },
-      { "link": "#", "imageURL": "https://picsum.photos/650/400?random=9" },
-      { "link": "#", "imageURL": "https://picsum.photos/650/400?random=10" },
-      { "link": "#", "imageURL": "https://picsum.photos/650/400?random=11" }
+      {
+        "link": "#",
+        "imageURL": "https://images.pexels.com/photos/1866149/pexels-photo-1866149.jpeg"
+      },
+      {
+        "link": "#",
+        "imageURL": "https://images.pexels.com/photos/276724/pexels-photo-276724.jpeg"
+      },
+      {
+        "link": "#",
+        "imageURL": "https://images.pexels.com/photos/1643383/pexels-photo-1643383.jpeg"
+      },
+      {
+        "link": "#",
+        "imageURL": "https://images.pexels.com/photos/2343461/pexels-photo-2343461.jpeg"
+      },
+      {
+        "link": "#",
+        "imageURL": "https://images.pexels.com/photos/2343461/pexels-photo-2343461.jpeg"
+      },
+      {
+        "link": "#",
+        "imageURL": "https://images.pexels.com/photos/1571458/pexels-photo-1571458.jpeg"
+      }
     ]
   },
   {
     "name": "Kitchen",
     "elements": [
-      { "link": "#", "imageURL": "https://picsum.photos/650/400?random=12" },
-      { "link": "#", "imageURL": "https://picsum.photos/650/400?random=13" },
-      { "link": "#", "imageURL": "https://picsum.photos/650/400?random=14" },
-      { "link": "#", "imageURL": "https://picsum.photos/650/400?random=15" },
-      { "link": "#", "imageURL": "https://picsum.photos/650/400?random=16" },
-      { "link": "#", "imageURL": "https://picsum.photos/650/400?random=17" }
+      {
+        "link": "#",
+        "imageURL": "https://images.pexels.com/photos/106399/pexels-photo-106399.jpeg"
+      },
+      {
+        "link": "#",
+        "imageURL": "https://images.pexels.com/photos/1001920/pexels-photo-1001920.jpeg"
+      },
+      {
+        "link": "#",
+        "imageURL": "https://images.pexels.com/photos/1001920/pexels-photo-1001920.jpeg"
+      },
+      {
+        "link": "#",
+        "imageURL": "https://images.pexels.com/photos/1668860/pexels-photo-1668860.jpeg"
+      },
+      {
+        "link": "#",
+        "imageURL": "https://images.pexels.com/photos/106399/pexels-photo-106399.jpeg"
+      },
+      {
+        "link": "#",
+        "imageURL": "https://images.pexels.com/photos/106399/pexels-photo-106399.jpeg"
+      }
     ]
   },
   {
     "name": "Bedroom",
     "elements": [
-      { "link": "#", "imageURL": "https://picsum.photos/650/400?random=18" },
-      { "link": "#", "imageURL": "https://picsum.photos/650/400?random=19" },
-      { "link": "#", "imageURL": "https://picsum.photos/650/400?random=20" },
-      { "link": "#", "imageURL": "https://picsum.photos/650/400?random=21" },
-      { "link": "#", "imageURL": "https://picsum.photos/650/400?random=22" },
-      { "link": "#", "imageURL": "https://picsum.photos/650/400?random=23" }
+      {
+        "link": "#",
+        "imageURL": "https://images.pexels.com/photos/1643381/pexels-photo-1643381.jpeg"
+      },
+      {
+        "link": "#",
+        "imageURL": "https://images.pexels.com/photos/1643380/pexels-photo-1643380.jpeg"
+      },
+      {
+        "link": "#",
+        "imageURL": "https://images.pexels.com/photos/1125138/pexels-photo-1125138.jpeg"
+      },
+      {
+        "link": "#",
+        "imageURL": "https://images.pexels.com/photos/545038/pexels-photo-545038.jpeg"
+      },
+      {
+        "link": "#",
+        "imageURL": "https://images.pexels.com/photos/545038/pexels-photo-545038.jpeg"
+      },
+      {
+        "link": "#",
+        "imageURL": "https://images.pexels.com/photos/1457848/pexels-photo-1457848.jpeg"
+      }
     ]
   },
   {
     "name": "Children's Room",
     "elements": [
-      { "link": "#", "imageURL": "https://picsum.photos/650/400?random=24" },
-      { "link": "#", "imageURL": "https://picsum.photos/650/400?random=25" },
-      { "link": "#", "imageURL": "https://picsum.photos/650/400?random=26" },
-      { "link": "#", "imageURL": "https://picsum.photos/650/400?random=27" },
-      { "link": "#", "imageURL": "https://picsum.photos/650/400?random=28" },
-      { "link": "#", "imageURL": "https://picsum.photos/650/400?random=29" }
+      {
+        "link": "#",
+        "imageURL": "https://images.pexels.com/photos/705792/pexels-photo-705792.jpeg"
+      },
+      {
+        "link": "#",
+        "imageURL": "https://images.pexels.com/photos/631648/pexels-photo-631648.jpeg"
+      },
+      {
+        "link": "#",
+        "imageURL": "https://images.pexels.com/photos/256424/pexels-photo-256424.jpeg"
+      },
+      {
+        "link": "#",
+        "imageURL": "https://images.pexels.com/photos/705792/pexels-photo-705792.jpeg"
+      },
+      {
+        "link": "#",
+        "imageURL": "https://images.pexels.com/photos/273683/pexels-photo-273683.jpeg"
+      },
+      {
+        "link": "#",
+        "imageURL": "https://images.pexels.com/photos/631648/pexels-photo-631648.jpeg"
+      }
     ]
   },
   {
     "name": "Dining Room",
     "elements": [
-      { "link": "#", "imageURL": "https://picsum.photos/650/400?random=30" },
-      { "link": "#", "imageURL": "https://picsum.photos/650/400?random=31" },
-      { "link": "#", "imageURL": "https://picsum.photos/650/400?random=32" },
-      { "link": "#", "imageURL": "https://picsum.photos/650/400?random=33" },
-      { "link": "#", "imageURL": "https://picsum.photos/650/400?random=34" },
-      { "link": "#", "imageURL": "https://picsum.photos/650/400?random=35" }
+      {
+        "link": "#",
+        "imageURL": "https://images.pexels.com/photos/106399/pexels-photo-106399.jpeg"
+      },
+      {
+        "link": "#",
+        "imageURL": "https://images.pexels.com/photos/2089698/pexels-photo-2089698.jpeg"
+      },
+      {
+        "link": "#",
+        "imageURL": "https://images.pexels.com/photos/1148956/pexels-photo-1148956.jpeg"
+      },
+      {
+        "link": "#",
+        "imageURL": "https://images.pexels.com/photos/1643380/pexels-photo-1643380.jpeg"
+      },
+      {
+        "link": "#",
+        "imageURL": "https://images.pexels.com/photos/1396122/pexels-photo-1396122.jpeg"
+      },
+      {
+        "link": "#",
+        "imageURL": "https://images.pexels.com/photos/1396122/pexels-photo-1396122.jpeg"
+      }
     ]
   },
   {
     "name": "Study",
     "elements": [
-      { "link": "#", "imageURL": "https://picsum.photos/650/400?random=36" },
-      { "link": "#", "imageURL": "https://picsum.photos/650/400?random=37" },
-      { "link": "#", "imageURL": "https://picsum.photos/650/400?random=38" },
-      { "link": "#", "imageURL": "https://picsum.photos/650/400?random=39" },
-      { "link": "#", "imageURL": "https://picsum.photos/650/400?random=40" },
-      { "link": "#", "imageURL": "https://picsum.photos/650/400?random=41" }
+      {
+        "link": "#",
+        "imageURL": "https://images.pexels.com/photos/936217/pexels-photo-936217.jpeg"
+      },
+      {
+        "link": "#",
+        "imageURL": "https://images.pexels.com/photos/276724/pexels-photo-276724.jpeg"
+      },
+      {
+        "link": "#",
+        "imageURL": "https://images.pexels.com/photos/1643382/pexels-photo-1643382.jpeg"
+      },
+      {
+        "link": "#",
+        "imageURL": "https://images.pexels.com/photos/1643381/pexels-photo-1643381.jpeg"
+      },
+      {
+        "link": "#",
+        "imageURL": "https://images.pexels.com/photos/1560932/pexels-photo-1560932.jpeg"
+      },
+      {
+        "link": "#",
+        "imageURL": "https://images.pexels.com/photos/914890/pexels-photo-914890.jpeg"
+      }
     ]
   },
   {
     "name": "Balcony",
     "elements": [
-      { "link": "#", "imageURL": "https://picsum.photos/650/400?random=42" },
-      { "link": "#", "imageURL": "https://picsum.photos/650/400?random=43" },
-      { "link": "#", "imageURL": "https://picsum.photos/650/400?random=44" },
-      { "link": "#", "imageURL": "https://picsum.photos/650/400?random=45" },
-      { "link": "#", "imageURL": "https://picsum.photos/650/400?random=46" },
-      { "link": "#", "imageURL": "https://picsum.photos/650/400?random=47" }
+      {
+        "link": "#",
+        "imageURL": "https://images.pexels.com/photos/105809/pexels-photo-105809.jpeg"
+      },
+      {
+        "link": "#",
+        "imageURL": "https://images.pexels.com/photos/105809/pexels-photo-105809.jpeg"
+      },
+      {
+        "link": "#",
+        "imageURL": "https://images.pexels.com/photos/256424/pexels-photo-256424.jpeg"
+      },
+      {
+        "link": "#",
+        "imageURL": "https://images.pexels.com/photos/1643381/pexels-photo-1643381.jpeg"
+      },
+      {
+        "link": "#",
+        "imageURL": "https://images.pexels.com/photos/1643382/pexels-photo-1643382.jpeg"
+      },
+      {
+        "link": "#",
+        "imageURL": "https://images.pexels.com/photos/1643381/pexels-photo-1643381.jpeg"
+      }
     ]
   },
   {
     "name": "Hallway",
     "elements": [
-      { "link": "#", "imageURL": "https://picsum.photos/650/400?random=48" },
-      { "link": "#", "imageURL": "https://picsum.photos/650/400?random=49" },
-      { "link": "#", "imageURL": "https://picsum.photos/650/400?random=50" },
-      { "link": "#", "imageURL": "https://picsum.photos/650/400?random=51" },
-      { "link": "#", "imageURL": "https://picsum.photos/650/400?random=52" },
-      { "link": "#", "imageURL": "https://picsum.photos/650/400?random=53" }
+      {
+        "link": "#",
+        "imageURL": "https://images.pexels.com/photos/276724/pexels-photo-276724.jpeg"
+      },
+      {
+        "link": "#",
+        "imageURL": "https://images.pexels.com/photos/1643382/pexels-photo-1643382.jpeg"
+      },
+      {
+        "link": "#",
+        "imageURL": "https://images.pexels.com/photos/1643382/pexels-photo-1643382.jpeg"
+      },
+      {
+        "link": "#",
+        "imageURL": "https://images.pexels.com/photos/256424/pexels-photo-256424.jpeg"
+      },
+      {
+        "link": "#",
+        "imageURL": "https://images.pexels.com/photos/1643382/pexels-photo-1643382.jpeg"
+      },
+      {
+        "link": "#",
+        "imageURL": "https://images.pexels.com/photos/1643381/pexels-photo-1643381.jpeg"
+      }
     ]
   },
   {
     "name": "Terrace",
     "elements": [
-      { "link": "#", "imageURL": "https://picsum.photos/650/400?random=54" },
-      { "link": "#", "imageURL": "https://picsum.photos/650/400?random=55" },
-      { "link": "#", "imageURL": "https://picsum.photos/650/400?random=56" },
-      { "link": "#", "imageURL": "https://picsum.photos/650/400?random=57" },
-      { "link": "#", "imageURL": "https://picsum.photos/650/400?random=58" },
-      { "link": "#", "imageURL": "https://picsum.photos/650/400?random=59" }
+      {
+        "link": "#",
+        "imageURL": "https://images.pexels.com/photos/1643382/pexels-photo-1643382.jpeg"
+      },
+      {
+        "link": "#",
+        "imageURL": "https://images.pexels.com/photos/1643381/pexels-photo-1643381.jpeg"
+      },
+      {
+        "link": "#",
+        "imageURL": "https://images.pexels.com/photos/105809/pexels-photo-105809.jpeg"
+      },
+      {
+        "link": "#",
+        "imageURL": "https://images.pexels.com/photos/256424/pexels-photo-256424.jpeg"
+      },
+      {
+        "link": "#",
+        "imageURL": "https://images.pexels.com/photos/1643381/pexels-photo-1643381.jpeg"
+      },
+      {
+        "link": "#",
+        "imageURL": "https://images.pexels.com/photos/1643382/pexels-photo-1643382.jpeg"
+      }
     ]
   },
   {
     "name": "Office",
     "elements": [
-      { "link": "#", "imageURL": "https://picsum.photos/650/400?random=60" },
-      { "link": "#", "imageURL": "https://picsum.photos/650/400?random=61" },
-      { "link": "#", "imageURL": "https://picsum.photos/650/400?random=62" },
-      { "link": "#", "imageURL": "https://picsum.photos/650/400?random=63" },
-      { "link": "#", "imageURL": "https://picsum.photos/650/400?random=64" },
-      { "link": "#", "imageURL": "https://picsum.photos/650/400?random=65" }
+      {
+        "link": "#",
+        "imageURL": "https://images.pexels.com/photos/276724/pexels-photo-276724.jpeg"
+      },
+      {
+        "link": "#",
+        "imageURL": "https://images.pexels.com/photos/1643382/pexels-photo-1643382.jpeg"
+      },
+      {
+        "link": "#",
+        "imageURL": "https://images.pexels.com/photos/1643381/pexels-photo-1643381.jpeg"
+      },
+      {
+        "link": "#",
+        "imageURL": "https://images.pexels.com/photos/105809/pexels-photo-105809.jpeg"
+      },
+      {
+        "link": "#",
+        "imageURL": "https://images.pexels.com/photos/256424/pexels-photo-256424.jpeg"
+      },
+      {
+        "link": "#",
+        "imageURL": "https://images.pexels.com/photos/276724/pexels-photo-276724.jpeg"
+      }
     ]
   }
 ]
