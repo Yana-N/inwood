@@ -21,7 +21,6 @@
     background-color: var(--primary-20);
   }
 
-  // TODO: reverse logo and burger only on mobiles
   &-inner {
     display: flex;
     flex-direction: row-reverse;
@@ -54,7 +53,6 @@
   }
 }
 
-// TODO: change for desktop first and use mixins
 @media screen and (min-width: 1024px) {
   .navbar {
     display: flex;
@@ -72,7 +70,6 @@
   }
 }
 
-// TODO: add highlights
 .menu {
   padding: 0;
   margin: 0;
@@ -110,7 +107,6 @@
   }
 }
 
-// TODO: change for desktop first and use mixins
 @media screen and (min-width: 1024px) {
   .menu {
     display: flex;

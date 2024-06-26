@@ -84,7 +84,6 @@
     font-family: var(--third-family);
     max-width: 430px;
 
-    // TODO: check width of slides in loop
     @include laptop {
       max-width: 416px;
     }
