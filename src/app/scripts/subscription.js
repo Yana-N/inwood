@@ -2,8 +2,7 @@
 const email = document.querySelector("#email");
 const submitButton = document.querySelector("#submit-btn");
 
-const regexp = /^(([^<>()[\]\\.,;:\s@"]+(\.[^<>()[\]\\.,;:\s@"]+)*)|.(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/
-
+const regexp = /^[\w-\.]+@([\w-]+\.)+[\w-]{2,4}$/
 const validateEmail = (email) => String(email).toLowerCase().match(regexp);
 
 const checkInputEmail = (e) => {
