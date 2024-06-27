@@ -1,12 +1,12 @@
 const header = document.querySelector('#header');
 const logoDark = header.querySelector('.logo--dark');
 const logoLight = header.querySelector('.logo--light');
-const halfScreen = document.documentElement.clientHeight / 2;
+const showPoint = document.documentElement.clientHeight * 0.1; // 10% of clientHeight
 
 window.addEventListener('scroll', () => {
     if (!header || !logoDark || !logoLight) return
 
-    if (window.scrollY >= halfScreen) {
+    if (window.scrollY >= showPoint) {
         header.classList.add('header--on-scroll');
         logoDark.classList.add('is-hidden');
         logoLight.classList.remove('is-hidden');
