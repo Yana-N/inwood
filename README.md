@@ -1,11 +1,5 @@
-<div align="center">
-  <img width="200" height="200" src="https://webpack.js.org/assets/icon-square-big.svg">
-  <h1>Webpack work template</h1>
-  <p>
-    Webpack is a module bundler. Its main purpose is to bundle JavaScript files for usage in a browser, yet it is also capable of transforming, bundling, or packaging just about any resource or asset.
-  </p>
-  <p>Author: <a href="https://github.com/vedees/" target="_blank">Vedees</a> | <a href="https://www.youtube.com/playlist?list=PLkCrmfIT6LBQWN02hNj6r1daz7965GxsV" target="_blank">Youtube guide (ru)</a></p>
-</div>
+## Demo
+https://inwood-front.netlify.app/dist/index.html
 
 ## Features:
 
